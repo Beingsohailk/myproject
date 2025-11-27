@@ -1,7 +1,6 @@
 FROM eclipse-temurin:8-jre-alpine
 
 EXPOSE 8080
-
 WORKDIR /usr/app
 
 # safer: copy any jar produced by the build
