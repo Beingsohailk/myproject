@@ -39,7 +39,7 @@ jobs:
       - name: Build & Push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          image: nanajanashia/demo-app
+          image: beingsohail/demo-app
           tags: ${{ github.ref_name }}-${{ github.sha }}
           registry: docker.io
           username: ${{ secrets.DOCKERHUB_USERNAME }}
